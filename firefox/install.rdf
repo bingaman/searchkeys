@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+		<em:id>{003dc6ae-2505-4639-be60-9132ac0d8814}</em:id>
+    <em:version>1.0.2</em:version>
+    
+    <!-- Target Application(s) this extension can install into, 
+        with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+				<em:minVersion>3.0</em:minVersion>
+				<em:maxVersion>3.7a1pre</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <!-- Front End MetaData -->
+    <em:name>Search Keys</em:name>
+    <em:description>Lets you go to search results by pressing the number of the search result.</em:description>
+    <em:creator>Jesse Ruderman</em:creator>
+    <em:homepageURL>http://www.squarefree.com/extensions/search-keys/</em:homepageURL>
+
+    <em:iconURL>chrome://search-keys/skin/icon.png</em:iconURL>
+
+    <!-- Packages, Skins and Locales that this extension registers -->
+    <em:file>
+      <Description about="urn:mozilla:extension:file:search-keys.jar">
+        <em:package>content/</em:package>
+        <em:skin>skin/</em:skin>
+      </Description>
+    </em:file>
+  </Description>      
+</RDF>

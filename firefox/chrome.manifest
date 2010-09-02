@@ -1,0 +1,5 @@
+
+overlay	chrome://browser/content/browser.xul	chrome://search-keys/content/overlay.xul
+content	search-keys	chrome/content/
+
+skin	search-keys	classic/1.0	chrome/skin/
